@@ -6,9 +6,43 @@
 
 .note{
     font-size: 15px;
-    color: rgb(223, 17, 161);
+    color: black;
 }
 
 body{
     background-size: cover;
+}
+
+.div_speed{
+    float: left;
+}
+.div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume{
+    float: right;
+}
+.div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#volume{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.play_button{
+    width: 240px;
+    font-size: 25px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
 }
